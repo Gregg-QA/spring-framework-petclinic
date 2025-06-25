@@ -1,0 +1,5 @@
+services:
+  petclinic:
+    image: greggqa/petclinic:latest
+    ports:
+      - "9090:8080"
